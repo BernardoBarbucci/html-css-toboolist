@@ -6,7 +6,7 @@
 }
 
 header{
-    background-color: rgb(219, 17, 17);
+    background-color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', sans-serif;
 }
 
@@ -19,4 +19,11 @@ header{
     font-size: 50px;
     font-weight: bold;
     vertical-align: sub;
+}
+
+main{
+    background-color: grey;
+    padding: 5rem 1rem;
+    border: 3rem 7rem;
+
 }
