@@ -5,12 +5,24 @@
     box-sizing: border-box;
 }
 
+.logo{
+    height: 65px;
+    width: 65px;
+    vertical-align: bottom;
+}
+
+.title-logo{
+    font-size: 50px;
+    font-weight: bold;
+    vertical-align: sub;
+}
+
 body {
     background-color: rgb(233, 233, 233);
 }
 
 header{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 100px;
     padding-top: 10px;
     padding-left: 10px;
@@ -18,26 +30,20 @@ header{
     font-family: 'Lucida Sans', sans-serif;
 }
 
-.logo{
-    height: 100px;
-    padding: 10px;
-}
-
-.title{
-    font-size: 50px;
-    font-weight: bold;
-    vertical-align: sub;
-}
-
 main{
-    background-color: grey;
     padding: 5rem 1rem;
     border: 3rem 7rem;
-
 }
 
-ul {list-style: none;
+ul {
+    list-style: none;
     margin-left: 0s;
     padding-left: 0;
 }
     
+.container {
+    margin: 0 auto;
+    width: 70%;
+    background-color: white;
+}
+
