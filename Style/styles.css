@@ -73,6 +73,37 @@ h1{
     font-family: 'Lucida Sans', sans-serif;
 }
 
+.context{
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+
+.context-blue{
+    background-color: rgb(59, 124, 199) ;
+}
+
+.context-purple{
+    background-color: rgb(126, 34, 212);
+}
+
+.context-orange{
+    background-color: rgb(190, 112, 10);
+}
+
+.context-lime{
+    background-color: rgba(12, 223, 12, 0.623);
+}
+
+.context-green{
+    background-color: rgb(136, 184, 26);
+}
+
+.context-magenta{
+    background-color:rgb(194, 27, 194);
+}
+
 .check{
     display: inline-block;
     height: 20px;
@@ -100,3 +131,4 @@ h1{
     font-size: 15px;
     text-align: center;
 }
+
